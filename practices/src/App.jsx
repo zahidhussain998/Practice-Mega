@@ -1,0 +1,22 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Profile from './components/Profile'
+import Login from './components/Login'
+import Providers from './context/Providers'
+function App() {
+  return (
+    <Providers>
+      <div>
+        <h1>
+          hey world
+        <Login/>
+        <Profile/>
+        </h1>
+      </div>
+    </Providers>
+  )
+}
+
+export default App
