@@ -37,6 +37,7 @@ function Weather() {
 
 
   return (
+    <>
     <div>
       <form 
        onSubmit={cityhandler}
@@ -65,6 +66,9 @@ function Weather() {
 
       </form>
     </div>
+
+    
+    </>
   )
 }
 

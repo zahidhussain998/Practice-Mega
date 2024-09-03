@@ -47,10 +47,10 @@ function App() {
   return (
   // eslint-disable-next-line no-undef
   <TodoProvider value={{todos, addTodo, deleteTodo,editTodo, toggleTodo}}>
-  <div className="bg-[#172842] min-h-screen py-8">
-                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
-                    <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
-                    <div className="mb-4">
+  <div className="bg-[#172842] w-full py-60 overflow-hidden relative z-30 text-white">
+                <div className="w-full py-60 overflow-hidden relative z-30 text-white">
+                <p className="text-center text-5xl md:text-9xl lg:text-[18rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 dark:from-neutral-950 to-neutral-200 dark:to-neutral-800 inset-x-0">EVERY AI</p>                   
+                 <div className="mb-4">
               <TodoForm/>
                     </div>
                     <div className="flex flex-wrap gap-y-3 w-full">

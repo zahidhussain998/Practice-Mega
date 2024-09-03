@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "Font+Back/backend",
+			"problemMatcher": [],
+			"label": "npm: start - Font+Back/backend",
+			"detail": "node server.js"
+		}
+	]
+}

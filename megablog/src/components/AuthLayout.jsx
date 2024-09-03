@@ -25,14 +25,15 @@ export default function Protected({children, authentication = true}) {
         // }
 
         //true = true
-        //true != false = flase
+        //true != false = false
         if(authentication && authStatus !== authentication){
             navigate('/login')
         }else if(!authentication && authStatus !== authentication){
             navigate("/")
         }
+        setLoader(false)
     },[authStatus, navigate, authentication])
 
-  return loader ? <h1> loding...</h1> : authStatus;
+  return loader ? <h1>Loading...</h1> : <>{children}</>
 }
 

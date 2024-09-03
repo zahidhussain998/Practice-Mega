@@ -10,7 +10,7 @@ import { AuthLayout, Login } from './components/index.js'
 
 
 import AddPost from "./pages/AddPost";
-import Singup from './pages/Singup'
+import Singup from './pages/Singup.jsx'
 import EditPost from "./pages/EditPost";
 
 import Post from "./pages/Post";
@@ -80,13 +80,9 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+   <React.StrictMode>
     <Provider store={store}>
-      <RouterProvider router={router}>
-    <App />
-    
-      </RouterProvider>
-
+    <RouterProvider router={router}/>
     </Provider>
   </React.StrictMode>,
 )
