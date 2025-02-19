@@ -1,0 +1,36 @@
+.bear-button-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .bear-icon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    pointer-events: none;
+    animation: bounce 1.5s infinite;
+  }
+  
+  .bear-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background: linear-gradient(45deg, #6B46C0, #8257E5);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .bear-button:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(-10px); }
+  }
