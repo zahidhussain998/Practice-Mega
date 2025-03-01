@@ -20,4 +20,7 @@ export function Droppable({id, children}) {
       {children}
     </div>
   );
+
+   
+
 }
