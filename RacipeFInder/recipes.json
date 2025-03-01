@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "ingredients": ["Spaghetti", "Eggs", "Parmesan", "Pancetta", "Garlic", "Black Pepper"],
+    "steps": [
+      "Boil the spaghetti.",
+      "Cook pancetta in a pan until crispy.",
+      "Mix eggs and Parmesan in a bowl.",
+      "Combine spaghetti, pancetta, and egg mixture.",
+      "Serve with black pepper on top."
+    ],
+    "cuisine": "Italian",
+    "time": 30,
+    "dietaryPreferences": ["Non-Vegetarian"],
+    "image": "https://images.unsplash.com/photo-1562923690-e274ba919781?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVjaXBlc3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 2,
+    "name": "Vegetable Stir Fry",
+    "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Soy Sauce", "Garlic", "Ginger"],
+    "steps": [
+      "Chop all vegetables.",
+      "Heat oil in a wok.",
+      "Stir-fry vegetables with garlic and ginger.",
+      "Add soy sauce and cook for another 2 minutes.",
+      "Serve hot."
+    ],
+    "cuisine": "Asian",
+    "time": 20,
+    "dietaryPreferences": ["Vegetarian", "Vegan"],
+    "image": "https://plus.unsplash.com/premium_photo-1729104879634-2300f607f29d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVjaXBlc3xlbnwwfHwwfHx8MA%3D%3D"
+  }
+]
